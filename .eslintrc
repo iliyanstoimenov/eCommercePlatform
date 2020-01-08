@@ -1,0 +1,33 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "env": {
+        "node": true,
+        "es6": true,
+        "browser": true
+    },
+    "plugins": [
+        "jsx-a11y"
+    ],
+    "rules": {
+        "comma-dangle": "off",
+        "indent": "off",
+        "no-trailing-spaces": "off",
+        "no-return-assign": "off",
+        "implicit-arrow-linebreak": "off",
+        "object-curly-newline": ["off"],
+        "import/prefer-default-export": "off",
+        "react/jsx-props-no-spreading": "off",
+        "jsx-a11y/anchor-is-valid": "off",
+        "no-plusplus": ["error", {"allowForLoopAfterthoughts": true}],
+        "linebreak-style": [1, "windows"],
+        "arrow-parens": ["error", "as-needed", {"requireForBlockBody": true}],
+        "react/prop-types": ["warn"],
+        "react/forbid-prop-types": "off",
+        "react/jsx-one-expression-per-line": ["off"],
+        "react/jsx-filename-extension": ["warn", { "extensions": [ ".js",".jsx"]}],
+        "react/jsx-indent": [ "error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "react/destructuring-assignment": ["error", "always", {"ignoreClassFields": true}]
+    }
+}
